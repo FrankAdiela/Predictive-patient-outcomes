@@ -53,7 +53,13 @@ The original dataset used for this project is not included in this repository.
 
 During the MSc dissertation, the dataset was processed and transformed to create a modified dataset for machine learning analysis. This involved data cleaning, preprocessing and feature engineering to prepare the data for Logistic Regression and Random Forest modelling.
 
-The repository is therefore intended to showcase the machine learning workflow, Python implementation, model development and evaluation process rather than provide a fully reproducible dataset package.
+A simplified version of the modified dataset created during the preprocessing stage is included in the `data/` directory to demonstrate part of the feature engineering workflow.
+
+Further information about the dataset and preprocessing steps can be found in:
+
+- `data/README.md`
+
+The repository is therefore intended to showcase an end-to-end healthcare analytics workflow, including data preparation, feature engineering, machine learning model development and evaluation, rather than provide the complete original research dataset.
 
 ## Data Preparation
 
