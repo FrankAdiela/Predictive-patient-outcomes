@@ -1,1 +1,17 @@
+# Data
 
+This folder contains the modified dataset created during the project.
+
+## File
+
+- `modified_dataset.csv`
+
+## Description
+
+The modified dataset contains synthetic patient-level features generated during the project, including:
+
+- `Age`
+- `Gender`
+- `Has_Diabetes`
+
+This dataset was created as part of the preprocessing and feature engineering stage of the MSc project and was used to support the machine learning workflow.
