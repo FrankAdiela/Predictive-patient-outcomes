@@ -16,6 +16,22 @@ During the MSc dissertation, the dataset was processed and transformed to create
 
 The repository is therefore intended to showcase the machine learning workflow, Python implementation, model development and evaluation process rather than provide a fully reproducible dataset package.
 
+## Data Preparation
+
+Data Cleaning Process
+
+The healthcare dataset required preprocessing before machine learning could be performed.
+
+The data preparation process included:
+
+- Replacing invalid placeholder values ('?') with missing values (NaN)
+- Assessing missing values across all variables
+- Creating a processed dataset for modelling
+- Generating additional synthetic patient features
+- Exporting the cleaned dataset for downstream analysis
+
+These preprocessing steps ensured the data was suitable for machine learning and demonstrated practical data preparation techniques commonly used in real-world analytical workflows.
+
 ## Technologies Used
 
 - Python
@@ -33,14 +49,37 @@ The repository is therefore intended to showcase the machine learning workflow, 
 
 ## Skills Demonstrated
 
-- Data cleaning
-- Data preprocessing
-- Feature engineering
-- Exploratory data analysis
-- Machine learning model training
-- Model evaluation
-- Classification metrics
-- Healthcare data analysis
+### Data Engineering
+
+- Data extraction
+- Data transformation
+- Dataset creation
+- Data export
+- Missing value handling
+- Data quality assessment
+
+### Data Analysis
+
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Data Cleaning
+- Statistical Analysis
+
+### Machine Learning
+
+- Logistic Regression
+- Random Forest
+- Model Evaluation
+- Classification Metrics
+- ROC Analysis
+- Confusion Matrix
+
+### Programming
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
 
 ## Project Workflow
 
